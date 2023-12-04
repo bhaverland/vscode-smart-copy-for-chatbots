@@ -1,0 +1,1 @@
+# vscode-smart-copy-for-chatbots
