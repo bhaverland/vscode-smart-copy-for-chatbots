@@ -1,0 +1,67 @@
+{
+  "name": "smart-copy-for-chatbots",
+  "displayName": "Smart Copy for Chatbots",
+  "description": "Adds a button to add the name, path, and contents of your current file to your clipboard in a format useful for pasting into a chatbot.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "smart-copy-for-chatbots.helloWorld",
+        "title": "Hello World"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.84.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "eslint": "^8.54.0",
+    "typescript": "^5.3.2",
+    "@vscode/test-cli": "^0.0.4",
+    "@vscode/test-electron": "^2.3.8"
+  },
+  "activationEvents": [
+    "onCommand:smart-copy-for-chatbots.copyFileContents"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "smart-copy-for-chatbots.copyFileContents",
+        "title": "Copy File Info to Clipboard",
+        "icon": "$(copy)"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "smart-copy-for-chatbots.copyFileContents",
+          "group": "navigation"
+        }
+      ],
+      "editor/title": [
+        {
+          "command": "smart-copy-for-chatbots.copyFileContents",
+          "group": "navigation"
+        }
+      ]
+    }
+  }
+}
