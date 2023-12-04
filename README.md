@@ -1,6 +1,6 @@
 # Smart Copy for Chatbots
 
-This extension, "Smart Copy for Chatbots," enhances productivity by allowing users to easily copy the relative path, file name, and contents of the current file in Visual Studio Code. This information is formatted in a way that's convenient for pasting into chatbots or other text-based interfaces.
+This extension, "Smart Copy for Chatbots," enhances productivity by allowing users to easily copy the relative path, file name, and contents of the current file in Visual Studio Code. This information is formatted in a way that's convenient for pasting into chatbots, like **ChatGPT**, or other text-based interfaces.
 
 ## Features
 
