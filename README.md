@@ -17,6 +17,16 @@ File Name: {name of the active file}
 {contents of the active file}
 ```
 
+## Installation
+
+To install the extension manually using the .vsix file:
+
+1. Download the .vsix file for the extension from the [GitHub Releases page](https://github.com/bhaverland/vscode-smart-copy-for-chatbots/releases).
+2. Open Visual Studio Code.
+3. Go to the Extensions view by clicking on the Extensions icon in the Activity Bar.
+4. Click on the `...` at the top-right of the Extensions view and select `Install from VSIX....`
+Navigate to the downloaded `.vsix file`, select it, and click 'Install'.
+
 ## Usage
 
 1. **Through Command Palette**:
