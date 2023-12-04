@@ -2,23 +2,14 @@
   "name": "smart-copy-for-chatbots",
   "displayName": "Smart Copy for Chatbots",
   "description": "Adds a button to add the name, path, and contents of your current file to your clipboard in a format useful for pasting into a chatbot.",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.84.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
   "main": "./out/extension.js",
-  "contributes": {
-    "commands": [
-      {
-        "command": "smart-copy-for-chatbots.helloWorld",
-        "title": "Hello World"
-      }
-    ]
-  },
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
@@ -38,9 +29,6 @@
     "@vscode/test-cli": "^0.0.4",
     "@vscode/test-electron": "^2.3.8"
   },
-  "activationEvents": [
-    "onCommand:smart-copy-for-chatbots.copyFileContents"
-  ],
   "contributes": {
     "commands": [
       {
