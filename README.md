@@ -9,7 +9,7 @@ This extension, "Smart Copy for Chatbots," enhances productivity by allowing use
 
 > Tip: This extension is particularly useful for developers working with chatbots, documentation, or any scenario where quick access to file information is beneficial.
 
-Using this extension should give you the following output to your clipboard:
+**Using this extension should give you the following output to your clipboard:**
 ```
 File Path: {relative path of the active file}
 File Name: {name of the active file}
